@@ -3,7 +3,7 @@ const express=require("express");
 const app=express();
 app.set("view engine","ejs");
 app.use(express.static("views"));
-app.listen(3200,function(){
+app.listen(3000,function(){
     console.log("started");
 });
 app.get("/",function(req,res){
